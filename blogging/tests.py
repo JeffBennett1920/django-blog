@@ -5,7 +5,7 @@ from blogging.models import Category
 import datetime
 from django.utils.timezone import utc
 
-# Create your tests here.
+
 class PostTestCase(TestCase):
     fixtures = ['blogging_test_fixture.json', ]
 
