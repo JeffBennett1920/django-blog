@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseRedirect, Http404
 from django.template import loader
-from blogging.models import Post, Category # Category added
+from blogging.models import Post, Category
 from django.views.generic.list import ListView
 from django.views.generic.detail import DetailView
 
